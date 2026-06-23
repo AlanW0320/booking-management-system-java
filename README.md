@@ -102,18 +102,5 @@ The repository works for basic flows but contains several inconsistencies and bu
    touch UserData.txt BookingDetails.txt
    ```
 
-## Suggested improvements
-- Use a structured format (CSV or JSON) or a small embedded DB (SQLite) for bookings to avoid fragile parsing.
-- Add unit tests for file parsing/writing and date handling.
-- Improve input validation and error messages.
-- Add logging instead of System.out/System.err for better diagnostics.
-- Handle concurrent access or locking if multiple users/processes might access the files.
-
-## Contributing
-Contributions are welcome. If you open a pull request, please:
-- Keep changes small and focused.
-- Describe the change and manual test steps.
-- Compile (`javac`) and test manually before submitting.
-
 ## License
 No license file is present in this repository. To make this project open-source, add a `LICENSE` file (for example MIT or Apache-2.0).
